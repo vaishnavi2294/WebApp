@@ -1,0 +1,151 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box
+}
+body{
+    color:#414042;
+    background:#f2f4f7;
+    font:14px/1.5 'Open sans', sans-serif;
+
+}
+h1{
+    
+    font-weight: 600;
+    font-size:35px;
+    color:#ffffff;
+}
+nav{
+    background: #fd4f00;
+}
+.jumbotron-fluid{
+    background: #434c5e;
+}
+.bullet{
+    height: 130px;width:80px ;
+ border-top-right-radius: 100%;
+ border-bottom-right-radius: 100%;
+  top:-1px;
+   left:-55px;position: absolute;
+
+}
+
+.box{
+    border-radius: 10px;
+    margin:20px 80px;
+    padding:34px;
+    background: #ffffff;
+    box-shadow: #555 1px 2px 12px ;
+    position: relative; overflow: hidden;
+}
+.progress-cover{
+    width:90%;
+
+}
+.arrow{
+font-size:100px; color:#555;float:right;vertical-align: middle; bottom:-120px;
+}
+
+.bg-b1{
+    background-color: #ffad8d;
+}
+.b1{
+    background-color: #ffad8d;
+}
+.bg-b2{
+    background-color: #abc3ce;
+}
+.b2{
+    background-color: #abc3ce;
+}
+.bg-b3{
+    background-color: #9ac1a7;
+}
+.b3{
+    background-color: #9ac1a7;
+}
+.bg-b4{
+    background-color: #e5bdbd;
+}
+.b4{
+    background-color: #e5bdbd;
+}
+.bg-b5{
+    background-color: #c5bbe0;
+}
+.b5{
+    background-color: #c5bbe0;
+}
+.bg-b6{
+    background-color: #d6ceb0;
+}
+.b6{
+    background-color: #d6ceb0;
+}
+/* highcharts */
+#container {
+    min-width: 300px;
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+}
+
+caption {
+	padding-bottom: 15px;
+	font-family: 'Verdana';
+	font-size: 1.2em;
+	color:#555;
+}
+
+table {
+	font-family: 'Verdana';
+	font-size: 12pt;          
+	border-collapse: collapse;
+	border: 1px solid #EBEBEB;
+	margin: 2px auto;
+    text-align: center;
+    width: 100%;
+}
+
+table tr:nth-child(odd) {
+  background-color: none;
+}
+
+table tr:nth-child(even) {
+  background-color: none;
+}
+
+th {
+	font-weight: 600;
+    padding: 10px;
+}
+g  .highcharts-color-1{
+   stroke:0;
+   stroke-width:0;
+   fill:linear-gradient(#faa739,#ec5f25);
+}
+g  .highcharts-color-0{
+   stroke:0;
+   stroke-width:0;
+}
+button{
+  display: none;
+
+}
+.highcharts-credits{
+    display: none;
+}
+
+
+.point{
+   color: #ffffff;
+}
+.highcharts-tracker  .highcharts-data-label-connector{
+stroke:#ffffff;
+stroke-width: 1px;
+}
+.highcharts-data-label tspan{
+fill:#ffffff;
+font-weight:lighter;
+stroke-width:0;
+     }
